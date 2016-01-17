@@ -1,0 +1,41 @@
+#game {
+    background-color: #EFE0DE;
+}
+
+#connection{
+    padding:100px 0 0 250px;
+}
+
+
+#name{
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+
+#gameMessage{
+    padding-left: 150px;
+}
+
+
+#nameError{
+    padding-left: 150px;
+    font-weight: bold;
+    color:red;
+}
+
+
+.gameButton{
+    border-radius: 7px;
+    padding: 3px 7px 3px 7px; 
+    -moz-box-shadow:    1px 1px 3px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 3px 2px #ccc;
+    box-shadow:         1px 1px 3px 2px #ccc;
+}
+
+
+#ready{
+    font-size: 140%;
+    margin-left: 350px;
+    margin-top: 150px;
+}

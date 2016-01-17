@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Vertical Pong</title>
+</head>
+
+<body>
+<div>
+    <span id='servconnection'></span>
+    <div id='connection'>
+        <span id='nameError'></span><br/>
+        <button class='gameButton' id='connect'>Connect</button>
+        <label>Name:</label><input id='name'>
+    </div>
+    
+<canvas id="game" height="600" width="700"></canvas>
+<button class='gameButton' id='ready'>Ready</button>
+<p id='gameMessage'></p>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/game.js"></script>
+</body>
+
+</html>
