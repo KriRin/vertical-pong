@@ -194,7 +194,7 @@ $(document).ready(function () {
             
             //on message from server to client
             websocket.onmessage = function(event) {
-                console.log('Message from server: ' + event.data);
+                //console.log('Message from server: ' + event.data); //uncomment for debugging
                 parseServMsg(event.data);
             }
              
