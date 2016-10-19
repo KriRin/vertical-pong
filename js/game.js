@@ -47,8 +47,6 @@ $(document).ready(function () {
         };
         
         Player.prototype.moveRight = function() {
-            
-            
             if(this.x < canvas.width-this.width) {
                 this.x += this.speed;
             }
@@ -68,7 +66,7 @@ $(document).ready(function () {
         var playerMe = new Player();
         var playerOp = new Player();
         
-                //keypress capture
+        //keypress capture
         var Key = {
             _pressed: {},
             
@@ -96,7 +94,7 @@ $(document).ready(function () {
         window.addEventListener('keydown', function(event) { Key.onKeydown(event); }, false);
         
         
-        
+        //Defines the ball object
         function Ball() {
             this.x = null;
             this.y = null;
@@ -118,7 +116,7 @@ $(document).ready(function () {
         var ball = new Ball();
         
         
-        //draw canvas inkl players + ball
+        //Draw canvas inkl players + ball
         function draw() {
                 if(status === 'running'){
                     ctx.clearRect(0, 0, canvas.width, canvas.height);

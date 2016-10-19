@@ -71,9 +71,10 @@ wsServer.on('request', function(request) {
        request.reject();
     }
     
-    
-    clientList.push(connection); //add connection to array of players/connections
-    //if connected player is 1st or 2st toggle ready button
+    //add connection to array of players/connections
+    clientList.push(connection);
+
+    //if connected player is 1st or 2nd toggle ready button
     if(clientList.length === 1 || clientList.length === 2) {
         prepPlayer(connection);
     }
