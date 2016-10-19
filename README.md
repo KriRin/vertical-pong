@@ -1,5 +1,8 @@
 # Vertical-pong
 
+This repository is my project for the final part of the Javascript course on [BTH](https://www.bth.se/ "BTH.se").
+
+----
 
 After you have downloaded the files from Gibthub the game requires jQuery which is included in the js folder. If you have your own use that. The server script runs on nodeJS which you can download from [here](https://nodejs.org/en/ "NodeJs.org").
 
